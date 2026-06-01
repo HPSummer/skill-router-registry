@@ -15,6 +15,27 @@ rough user task
 -> feedback updates routing preference
 ```
 
+## Architecture
+
+```mermaid
+flowchart LR
+    A["Rough user task"] --> B["Tiny intent frame"]
+    B --> C["Local skill index"]
+    C --> D{"Confidence"}
+    D -->|High| E["Load one selected SKILL.md"]
+    D -->|Medium| F["Show 2-3 candidates"]
+    D -->|Low| G["Ask one clarification question"]
+    E --> H["Execute task"]
+    F --> E
+    G --> B
+    H --> I["Lightweight feedback"]
+    I --> C
+
+    J["GitHub/local discovery"] --> K["Read SKILL.md metadata only"]
+    K --> L["Review/unknown records"]
+    L --> C
+```
+
 ## Why It Exists
 
 Large skill collections create a new problem: the agent can waste context deciding what to read. This skill treats routing as a first-class step.
