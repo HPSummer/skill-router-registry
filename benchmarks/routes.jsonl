@@ -1,0 +1,12 @@
+{"id":"video-001","query":"make an explainer video with subtitles","expected_task_type":"video","expected_best_skill":"seedance-2-pro-video","min_confidence":"high","notes":"video generation with subtitles"}
+{"id":"prompt-001","query":"把我的大白话问题转成一个更清晰的提示词","expected_task_type":"planning","expected_best_skill":"question-to-prompt-pack","min_confidence":"high","notes":"Chinese rough-question to prompt framing"}
+{"id":"matlab-001","query":"review this MATLAB control code","expected_task_type":"coding","expected_best_skill":"matlab-review-code","min_confidence":"high","notes":"MATLAB review route"}
+{"id":"ambiguous-001","query":"help me with this","expected_task_type":"general","expected_best_skill":null,"min_confidence":"low","notes":"ambiguous request should not force a skill"}
+{"id":"research-001","query":"find recent papers about low-thrust trajectory optimization","expected_task_type":"research","expected_best_skill":"literature-review","min_confidence":"medium","notes":"literature search and synthesis"}
+{"id":"research-002","query":"帮我规划一个个人科研效率工具 MVP","expected_task_type":"research","expected_best_skill":"research-execution-copilot","min_confidence":"medium","notes":"research planning/product MVP route"}
+{"id":"automation-001","query":"每天检查 GitHub 上有没有新的 Codex skills","expected_task_type":"automation","expected_best_skill":"skill-router-registry","min_confidence":"medium","notes":"periodic skill discovery should route to registry, then automation schedules it"}
+{"id":"data-001","query":"extract tables from this PDF","expected_task_type":"data","expected_best_skill":"pdf","min_confidence":"high","notes":"PDF table extraction"}
+{"id":"writing-001","query":"polish this manuscript for Nature style","expected_task_type":"writing","expected_best_skill":"nature-polishing","min_confidence":"high","notes":"Nature style polishing"}
+{"id":"security-001","query":"scan this repo for security issues","expected_task_type":"coding","expected_best_skill":"codex-security:security-scan","min_confidence":"medium","notes":"repository security scan"}
+{"id":"frontend-001","query":"build a React dashboard for my research planner","expected_task_type":"coding","expected_best_skill":"build-web-apps:frontend-app-builder","min_confidence":"medium","notes":"frontend app building"}
+{"id":"obsidian-001","query":"create an Obsidian literature note from this paper","expected_task_type":"research","expected_best_skill":"literature-review","min_confidence":"medium","notes":"research note should route to literature review in sample index"}

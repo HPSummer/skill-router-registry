@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Router Registry"
+  short_description: "Route tasks to skills with tiny context."
+  default_prompt: "Use $skill-router-registry to map my rough task to the best available skill with minimal token use."
