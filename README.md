@@ -4,6 +4,16 @@
 
 [中文说明](README.zh-CN.md) | MIT License
 
+## Project Status
+
+This repository is now maintained as an internal routing component and reference implementation.
+
+For the user-facing unified skill, use:
+
+[HPSummer/question-to-prompt-pack](https://github.com/HPSummer/question-to-prompt-pack)
+
+`question-to-prompt-pack` now includes prompt framing, question coaching, user style profile support, and built-in skill routing. Most users should install that repository instead of installing this skill directly.
+
 Skill Router Registry is for teams and power users who are starting to accumulate many Codex skills. It keeps a compact local index, ranks candidate skills from metadata, emits a small route decision, and only then loads the selected skill.
 
 ```text

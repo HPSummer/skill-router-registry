@@ -4,6 +4,16 @@
 
 [English README](README.md) | MIT License
 
+## 项目状态
+
+这个仓库现在作为内部路由组件和参考实现维护。
+
+面向用户的统一入口请使用：
+
+[HPSummer/question-to-prompt-pack](https://github.com/HPSummer/question-to-prompt-pack)
+
+`question-to-prompt-pack` 现在已经包含：问题理解、提示词包生成、提问训练、用户风格 profile，以及内置 skill routing。大多数用户应该安装那个仓库，而不是直接安装这个 skill。
+
 当 skills 越来越多时，新的问题不是“有没有能力”，而是“应该加载哪个能力”。Skill Router Registry 把“路由”变成一个明确步骤：先查紧凑 metadata，再选择 skill，最后只加载被选中的 `SKILL.md`。
 
 ```text
