@@ -6,6 +6,8 @@
 
 ## 项目状态
 
+**推荐路径：** 普通用户请先安装 [question-to-prompt-pack](https://github.com/HPSummer/question-to-prompt-pack)。只有在你需要维护大量 Codex skills、团队 skill 目录，或自定义 routing/discovery 工作流时，再使用 Skill Router Registry。
+
 这个仓库现在作为内部路由组件和参考实现维护。
 
 面向用户的统一入口请使用：
