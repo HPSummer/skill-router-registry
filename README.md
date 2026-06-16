@@ -6,6 +6,8 @@
 
 ## Project Status
 
+**Recommended path:** Most users should install [question-to-prompt-pack](https://github.com/HPSummer/question-to-prompt-pack) first. Use Skill Router Registry only when you maintain many Codex skills, team skill catalogs, or custom routing/discovery workflows.
+
 This repository is now maintained as an internal routing component and reference implementation.
 
 For the user-facing unified skill, use:
